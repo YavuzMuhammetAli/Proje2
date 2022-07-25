@@ -1,0 +1,68 @@
+/*******************************
+* MODAL AS LEFT/RIGHT SIDEBAR
+* Add "left" or "right" in modal parent div, after class="modal".
+* Get free snippets on bootpen.com
+*******************************/
+@import url("https://fonts.googleapis.com/css2?family=Dongle&display=swap");
+
+.tasks-title {
+  width: 100%;
+  align-items: center;
+  // justify-content: space-between;
+  font-family: "Dongle", sans-serif;
+}
+.tasks-title div{
+  font-size: x-large !important;
+}
+.tasks-title div{
+  flex-basis: 12.5%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center !important;
+}
+.tasks-title div:nth-child(1){
+  flex-basis: 16.5%;
+  border-right: 1px solid darkgray
+
+}
+.tasks-title div:nth-child(2){
+  flex-basis: 10.5%;
+  border-right: 1px solid darkgray
+
+
+}
+.tasks-title div:nth-child(3){
+  flex-basis: 25.5%;
+  display: flex;
+  justify-content: center;
+  border-right: 1px solid darkgray
+
+}
+.tasks-title div:nth-child(3){
+  flex-basis: 9.5%;
+  display: flex;
+  justify-content: center;
+  border-right: 1px solid darkgray
+
+}
+.tasks-title div:nth-child(4){
+  flex-basis: 24.5%;
+  display: flex;
+  justify-content: center;
+  border-right: 1px solid darkgray
+
+}
+.tasks-title div:nth-child(5){
+  flex-basis: 10.5%;
+  display: flex;
+  justify-content: center;
+  border-right: 1px solid darkgray
+
+}
+.tasks-title div:nth-child(6){
+  flex-basis: 10.5%;
+  display: flex;
+  justify-content: center;
+  border-right: 1px solid darkgray
+
+}
